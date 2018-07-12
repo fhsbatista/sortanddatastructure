@@ -9,20 +9,20 @@ public class QuickSort {
 
         int[] array = GeradorVetor.getVetor();
 
-        for(int i : array){
-            System.out.print(" ," + i);
-
-        }
+//        for(int i : array){
+//            System.out.print(" ," + i);
+//
+//        }
 
         System.out.println();
 
         long tempoInicial = System.currentTimeMillis();
         quicksort(array, 0, array.length);
         long tempoFinal = System.currentTimeMillis() - tempoInicial;
-        for(int i : array){
-            System.out.print(" ," + i);
-
-        }
+//        for(int i : array){
+//            System.out.print(" ," + i);
+//
+//        }
 
 
         System.out.println("\nO tempo final foi de: " + tempoFinal + "ms");
